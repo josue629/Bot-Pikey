@@ -4,10 +4,10 @@ const tttme = (pushname, userWins, userDefeats, userTies, userPoints) => {
 
 ❖ NOME: ${pushname} 
 
-    ➣ Vitórias: ${userWins} 🎊
+    ➣ Victorias: ${userWins} 🎊
     ➣ Derrotas: ${userDefeats} 💥
     ➣ Empates : ${userTies} 🌀
-    ➣ Pontos  : ${userPoints} ✨
+    ➣ Puntos  : ${userPoints} ✨
     `
 }
 
