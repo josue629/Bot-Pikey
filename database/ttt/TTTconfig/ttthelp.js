@@ -6,10 +6,10 @@ const ttthelp = (prefix) => {
 ◪ INICIAR
   │
   ├─ ❏ Para iniciar digite:
-  │     └「 ${prefix}ttt [ DIFICULDADE ] 」
-  └─ ❏ Sol una persona a la vez
+  │     └「 ${prefix}ttt [ DIFICULDADES ] 」
+  └─ ❏ Solo una persona a la vez
 
-◪ DIFICULDADE
+◪ DIFICULDADES
   │
   ├─ ❏ easy : totalmente aleatorio 
   │     (Solo perderás si tienes mala suerte)
