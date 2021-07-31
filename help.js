@@ -66,13 +66,13 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 *Info del bot ☄*
-*➩Nome :*${client.user.name}
+*➩Nombre :*${client.user.name}
 *➩Navegador :*${client.browserDescription[1]}
 *➩Servidor :*${client.browserDescription[0]}
-*➩Versão :*${client.browserDescription[2]}
-*➩Velocidade :*${process.uptime()}
+*➩Version :*${client.browserDescription[2]}
+*➩Velocidad :*${process.uptime()}
 *➩Celular :*${client.user.phone.device_manufacturer}
-*➩Versão do whatsapp :*${client.user.phone.wa_version}
+*➩Version de whatsapp :*${client.user.phone.wa_version}
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
 `
@@ -82,14 +82,14 @@ exports.help = help
 const m18 = (pushname, prefix) => {
     return `    
      ༻▬࣭ ▭࣭ ▬ ▭࣭ ★ ▬࣭ ▭࣭ ▬ ▭࣭༺
-      Olá ${pushname}🧙‍♂️
+      Hola ${pushname}🧙‍♂️
      ༻▬࣭ ▭࣭ ▬ ▭࣭ ★ ▭࣭ ▬ ▭࣭ ▬࣭༺
 
 ☀️　　🌎　°　　🌓　•　　.°•　　　🚀　　
 　　　★　*　　🛸　　　°　🚀　　　　°·　
 .　　　•　°★　•
-Caso algum comando esteja errado avise o
-wa.me/+556181496039
+Caso que algun comando deje de funcionar comunicar a
+wa.me/+51917012705
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 ╔════ 🔞 +18 🔞
 ║╭──────────────❮●
