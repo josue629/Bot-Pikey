@@ -3,9 +3,9 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 
 ◆ ▬▬▬▬ ❴USUÁRIO❵ ▬▬▬▬▬▬▬▬ ◆
     ❏ Prefix: 「  ${prefix}  」
-    ❏ Nome: ${pushname}
+    ❏ Nombre: ${pushname}
     ❏ Tipo: ${premi}
-    ❏ Dinhero: *${uangku}*
+    ❏ Dinero: *${uangku}*
     ❏ Tag: @${sender.split("@")[0]}
     ❏ Patente: *${role}*
     ❏ Nível: ${getLevelingLevel(sender)}
@@ -16,7 +16,7 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ❏ *GRUPO MENU*
 │
 └◪› ${prefix}menugp
-    └[ menu de administração ]
+    └[ menu de administracion ]
    
 ❏ *MENU SIMPLES*
 │
@@ -31,14 +31,14 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ❏ *NÚVEM*
 │
 └◪› ${prefix}menunv
-    └[ guardar arquivos na núvem ]        
+    └[ guardar archivos de num. ]        
       
 ❏ *MENU DE NÍVEL*
 │
 └◪› ${prefix}menulvl
-    └[ menu de nível,limit,dinhero ]
+    └[ menu de nível,limit,dinero ]
     
-❏ *MENU DE INFORMAÇÃO*
+❏ *MENU DE INFORMACION*
 │
 └◪› ${prefix}menuinfo
     └[ menu te mostra algumas info ]    
@@ -46,9 +46,9 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ❏ *MENU DE GAMES*
 │
 └◪› ${prefix}menugm
-    └[ menu de jogos pra ganhar xp ]        
+    └[ menu de juegos para ganar xp ]        
     
-❏ *MENU DE FERRAMENTAS*
+❏ *MENU DE HERRAMIENTAS*
 │
 └◪› ${prefix}menufs
     └[ toimg,tomp3 etc ]        
@@ -56,16 +56,16 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ❏ *FUN MENU*
 │
 └◪› ${prefix}menufun
-    └[ menu de interação ]        
+    └[ menu de interaccion ]        
     
-❏ *MENU DO SAYO*
+❏ *MENU DEL CREADOR*
 │
 └◪› ${prefix}menusy
-    └[ menu somente do meu criador ]        
+    └[ menu solamente creador ]        
 
 ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ▱▱▱▱▱▱▱▱▱▱▱▱▱▱▱
-*Info do bot ☄*
+*Info del bot ☄*
 *➩Nome :*${client.user.name}
 *➩Navegador :*${client.browserDescription[1]}
 *➩Servidor :*${client.browserDescription[0]}
